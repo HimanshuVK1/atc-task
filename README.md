@@ -67,6 +67,8 @@ To Do this:
 
   - services
 <img width="814" alt="image" src="https://github.com/user-attachments/assets/fa97fcb0-d337-4251-a8ad-e172143cbb53" />
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 
 11th now edit service of grafan and chenge it type form ClusterIP to LoadBalancer so we can access it publicly on internet.
   - Run "kubectl edit svc prometheus-grafana -n monitor" command and edit it state file.
