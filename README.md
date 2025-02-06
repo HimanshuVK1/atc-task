@@ -88,12 +88,14 @@ To Do this:
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 12th Now Add Prmetheus endpoint to you Datasource of Grafana.
+
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/3fe28296-fad2-4c96-b7c2-e090929fb547" />
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/eaa8f1ca-a638-4331-81a6-b397741e1873" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 13th Now Add Loki endpoint to you Datasource of Grafana.
+
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/a4d14f2e-0a3c-4d42-ab6a-c4ada1be7a75" />
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/646e4bea-fe3a-4d90-b4a4-911cdffc4d46" />
 
@@ -108,16 +110,19 @@ To Do this:
 
 15th Now creat Deployment and Service file for your Kubernetes Cluster with this file "assignment/gke/webapp.yaml" in present in this repo.
   - Deploy this Deployment and service with "kubectl apply -f webapp.yaml" command in default namespace.
+
 <img width="655" alt="image" src="https://github.com/user-attachments/assets/5a263ee6-55e6-4a34-baac-d31757a890b7" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 16th Now Copy web-app-service loadbalancer ip address and past it in you browser and hit this ip.
+
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/d4f4ed4a-5fea-4d86-bcac-ecfb3d556600" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 17th Now to check Logs of webapp deployment pods go to Grafana Dashboard --> Explore --> Choose Loki Data source picker and Check your logs.
+
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/097a9ade-5107-4d6a-a916-b99feb982570" />
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/636251b6-db20-4df9-b432-1c743e647b73" />
 
@@ -127,6 +132,8 @@ To Do this:
     1) Go to Grafana Dashboard
     2) Select Dashboard "Kubernetes / Compute Resources / Namespace (Workloads)".
     3) Select Namespace "default" or "monitor".
+
+    
 default namespase
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/525d04bc-328a-4281-8698-eab47f7634b6" />
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/15d7b446-f8e3-4cbc-9774-8570b7f72280" />
