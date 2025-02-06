@@ -1,6 +1,6 @@
 provider "google" {
   project     = "clear-tape-450019-u6"
-  credentials = file("clear-tape-450019-u6-8173cf4cc990.json")
+  credentials = file("path/gcp_service_account_key.json")
   region      = "asia-south1"
 }
 
