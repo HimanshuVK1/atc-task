@@ -1,5 +1,3 @@
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/768aa2ed-21c3-42c3-9ddc-71ca6d4408f4" /># atc-task
-
 Cloud & DevOps Engineer Assessment Task
 Overview
 Deploy a web application in a cloud-based Kubernetes solution, ensuring proper logging and monitoring are in place.
