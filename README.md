@@ -60,21 +60,23 @@ To Do this:
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 10th Check all the pods with "kubectl get pods -n monitor" and all service with "kubectl get svc -n monitor" command in "monitor" namespace.
+  
   - pods
 <img width="552" alt="image" src="https://github.com/user-attachments/assets/0e80421e-dc8f-41bd-9d00-ab1141b40184" />
 
+
+
   - services
 <img width="814" alt="image" src="https://github.com/user-attachments/assets/fa97fcb0-d337-4251-a8ad-e172143cbb53" />
---------------------------------------------------------------------------------------------------------------------------------------------
 
-
+---
 11th now edit service of grafan and chenge it type form ClusterIP to LoadBalancer so we can access it publicly on internet.
   - Run "kubectl edit svc prometheus-grafana -n monitor" command and edit it state file.
   - this will provide a loadbalancer Public IP.
   - Now access this ip on you bwoser.
   - Then run  "kubectl get secret --namespace monitor prometheus-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo"  this command to get grafana password for admin login.
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/438b003a-ab9a-45bc-92f8-c1e7f4294728" />
---------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 12th Now Add Prmetheus endpoint to you Datasource of Grafana.
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/3fe28296-fad2-4c96-b7c2-e090929fb547" />
